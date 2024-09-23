@@ -1,0 +1,16 @@
+git branch
+
+git branch aNewFile : creates a branch with a file name
+git checkout branchname: checks in the the branchname
+git branch -a : checks the branch you are in
+git checkout -b branchname : crates a new branch and checks into it
+git status: checks the status of the branch
+git log --oneline:shows the branch you are in
+git branch -d branchname: deletes a branch if it has been merged. note: must checkout to main/master before you can delete
+git branch -D branchname: deletes a branch whether merged or not
+
+MERGING
+git merge: merges a branch to main/master
+note: must checkout to main to able to maerge.
+
+
